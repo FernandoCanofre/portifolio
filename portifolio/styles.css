@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Krona+One&family=Montserrat:ital,wght@0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #f2f2f2;
+}
+.titulo-destaque {
+    color: #41BFB3;
+}
+
+.apresentacao {
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__texto {
+    font-size: 24px;
+    font-family:'Dosis', sans-serif;;
+}
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.instagram {
+    background-color: #41BFB3;
+    width: 190px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montsserat', sans-serif;
+}
+
+.github {
+    background-color: #41BFB3;
+    width: 190px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montsserat', sans-serif;
+}
+
+.linkedin {
+    background-color: #41BFB3;
+    width: 190px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montsserat', sans-serif;
+}
